@@ -1,0 +1,249 @@
+body{
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f9fc;
+}
+
+/*Hero*/
+.hero-section {
+    position: relative;
+    background-image: url('../img/herogoals.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 15px 20px;
+    color: #f7f9fc;
+    z-index: 1;
+    max-width: 100%;
+}
+
+.hero-section h1,
+.hero-section p {
+    position: relative;
+    z-index: 2;
+    padding-left: 40px;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(45, 61, 105, 0.7);
+    z-index: 1;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.hero-section h1::after{
+    content: "";
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+    background-color: #41b8d5;
+    margin-top: 10px;
+    margin-left: 30%;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+.container p{
+    padding-top: 38px;
+}
+
+.left{
+    background-color: #33477d;
+    color: white;
+    padding: 40px;
+    flex: 1.5;
+}
+
+.center{
+    background-color: #41b8d5;
+    flex: 0.05;
+}
+
+.right{
+    background: #f7f9fc;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right a{
+    margin:10px;
+    padding: 20px 20px 20px 20px;
+    background-color: #41b8d5;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width:250px;
+    text-align: center;
+}
+
+.right a:hover {
+    background-color: #33477d;
+}
+
+.content{
+    padding: 30px;
+}
+
+.highlight{
+    color: #41b8d5;
+}
+
+ul{
+    list-style-type: square;
+}
+
+.line{
+    background-color:#41b8d5;
+    width: 90%;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+p {
+    font-size: 26px;
+}
+
+/*For hobbies, favorites, and goals styles*/
+.nav{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color:#33477d;
+    max-width: 100%;
+}
+
+.nav a{
+    background-color: #41b8d5;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    min-width: 100px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.nav a.active,
+.nav a:hover{
+    background-color: #3794ab;
+    color: white;
+}
+
+.content{
+    padding: 40px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.content p{
+    font-size:20px;
+}
+
+.content h3{
+    font-weight: 700;
+    color: #41b8d5;
+    font-size: 36px;
+    margin-bottom: 2px;
+}
+
+.hobby-grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.hobby-box{
+    background-color:#fff;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 calc(25% + 20px);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    text-align:center;
+    max-width: 200px;
+}
+
+.hobby-box h4{
+    margin-bottom: 10px;
+    color: #41b8d5;
+    font-size: 30px;
+}
+
+.line1{
+    background-color: #33477d;
+    width: 100%;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+em{
+    color:rgba(109, 109, 109, 0.7);
+}
+
+@media (max-width: 835px) {
+
+    .hero-section h1::after{
+        width: 120px;
+        height: 20px;
+        margin-left: 10%;
+    }
+
+
+}
+
+@media (max-width: 789.9px) {
+
+    .hero-section h1::after{
+        display: none;
+    }
+
+}
+
+@media (max-width: 660px) {
+
+    .nav a{
+        font-size: 70%;
+        min-width: 2%;
+        margin-left: 20px;
+    }
+
+    h1{
+        font-size:40px;
+    }
+
+    p{
+        font-size:20px;
+    }
+
+    .content p{
+        font-size:20px;
+    }
+
+    .content h3{
+        font-size:30px;
+    }
+
+    .hobby-box h4{
+        font-size:24px;
+    }
+
+    .hobby-box p{
+        font-size:16px;
+    }
+}

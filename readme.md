@@ -115,37 +115,38 @@ Description of the project in details.
 AD-ProjectName
 └─ assets
 |   └─ css
-|   |   └─ name.css
+|   |   └─ style.css
 |   └─ img
-|   |   └─ name.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ name.js
-└─ components
-|   └─ name.component.php
-|   └─ templates
-|      └─ name.component.php
-└─ handlers
-|   └─ name.handler.php
+|       └─ introrighthero.jpg
+|       └─ nyebe_white.png
 └─ pages
-|  └─ pageName
-|     └─ assets
+|  └─ favorites
+|  |  └─ assets
+|  |  |  |  └─ css
+|  |  |  |     └─ style.css
+|  |  |  └─ img
+|  |  |      └─ herofavorites.jpg
+|  |  └─ index.php
+|  |
+|  └─ goals
+|  |   └─ assets
+|  |   |  └─ css
+|  |   |  |  └─ style.css
+|  |   |  └─ img
+|  |   |      └─ herogoals.jpg
+|  |   └─ index.php
+|  |
+|  └─ hobbies
+|      └─ assets
 |     |  └─ css
-|     |  |  └─ name.css
+|     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ name.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ name.js
+|     |      └─ herohobbies.jpg
 |     └─ index.php
-└─ utils
-|   └─ name.utils.php
-└─ vendor
+|
 └─ .gitignore
-└─ bootstrap.php
-└─ composer.json
-└─ composer.lock
 └─ index.php
 └─ readme.md
-└─ router.php
 ```
 > The following should be renamed: name.css, name.js, name.jpeg/.jpg/.webp/.png, name.component.php(but not the part of the `component.php`), Name.utils.php(but not the part of the `utils.php`)
 

@@ -23,7 +23,6 @@
 
                 echo "<p>I am $age years old and currently studying $course with specialization in $spec at $school.</p>";
 
-
                 //Conditional
                 if ($isStudent){
                     echo "<p>I am passionate about learning programming!</p>";
@@ -40,6 +39,5 @@
                 <a href="pages/goals/index.php" class="btn">My Goals</a>
             </div>
         </div>
-
 </body>
 </html>

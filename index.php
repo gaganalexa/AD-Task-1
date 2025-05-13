@@ -13,7 +13,24 @@
                     <span class="highlight">HELLO, I AM</span><br> ALEXA MHEL<br> V. GAGAN
                 </h1>
             <div class="line"></div>
-            
+            <?php
+                // Declarations
+                $age = 20;
+                $course = "Bachelor of Science in Information Technology";
+                $spec = "Web and Mobile application";
+                $school = "FEU Institue of Technology";
+                $isStudent = true;
+
+                echo "<p>I am $age years old and currently studying $course with specialization in $spec at $school.</p>";
+
+
+                //Conditional
+                if ($isStudent){
+                    echo "<p>I am passionate about learning programming!</p>";
+                } else {
+                    echo "<p>I am exploring new paths in life .</p>";
+                }
+            ?>
             </div>
             <div class="center"></div>
             <div class="right">

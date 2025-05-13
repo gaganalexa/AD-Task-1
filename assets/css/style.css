@@ -1,0 +1,163 @@
+body{
+    font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f9fc;
+}
+
+h1{
+    font-size: 60px;
+}
+
+.container{
+    display: flex;
+    height: 100VH;
+}
+.container p{
+    padding-top: 10px;
+}
+
+.left {
+    position: relative;
+    background: url('../img/introrighthero.jpg') center center/cover no-repeat;
+    color: white;
+    padding: 40px;
+    flex: 1.5;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.left::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(45, 61, 105, 0.7);
+    z-index: 0;
+}
+
+.left * {
+    position: relative;
+    z-index: 1; /* ensure content appears above the overlay */
+}
+
+
+.center{
+    background-color: #41b8d5;
+    flex: 0.05;
+}
+
+.right{
+    background: #f7f9fc;
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.right a{
+    margin:10px;
+    padding: 20px 20px 20px 20px;
+    background-color: #41b8d5;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    display: inline-block;
+    width:250px;
+    text-align: center;
+}
+
+.right a:hover {
+    background-color: #3794ab;
+}
+
+.content{
+    padding: 30px;
+}
+
+.highlight{
+    color: #41b8d5;
+}
+
+ul{
+    list-style-type: square;
+}
+
+.line{
+    background-color:#41b8d5;
+    width: 90%;
+    height: 5px;
+    margin-top: 10px;
+    margin-bottom:20px;
+}
+
+p {
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+
+em{
+    color:rgba(109, 109, 109, 0.7);
+}
+
+
+@media (max-width: 780px) {
+
+    body{
+        width:100%;
+    }
+    .container {
+        flex-direction: column;
+    height: auto;
+    }
+
+    .left, .center, .right {
+        flex: none;
+    }
+
+    .center {
+        height: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p{
+        font-size: 0.6rem;
+    }
+
+    .center{
+        width: 100%;
+    }
+
+    .right a {
+        font-size: 0.6rem;
+        padding: 0.6rem;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .content {
+        padding: 20px 10px;
+    }
+
+    .hobby-box {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
+

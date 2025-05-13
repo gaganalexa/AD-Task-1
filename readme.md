@@ -154,9 +154,9 @@ AD-ProjectName
 
 <!-- TODO: Add References -->
 
-| Title        | Purpose                                                                       | Link          |
-| ------------ | ----------------------------------------------------------------------------- | ------------- |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| Title             | Purpose                                                     | Link          |
+| ----------------- | ----------------------------------------------------------- | ------------- |
+| introrighthero.jpg| Background for the right division of the introduction page. | https://ph.pinterest.com/pin/35958497019126684/ |
+| herofavorites.jpg | Hero section for the favorites page.                        | trykolang.com |
+| herogoals.jpg     | Hero section for the goals page.                            | trykolang.com |
+| herohobbies.jpg   | Hero section for the hobbies page.                          | trykolang.com |

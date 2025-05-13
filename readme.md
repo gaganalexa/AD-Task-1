@@ -157,6 +157,6 @@ AD-ProjectName
 | Title             | Purpose                                                     | Link          |
 | ----------------- | ----------------------------------------------------------- | ------------- |
 | introrighthero.jpg| Background for the right division of the introduction page. | https://ph.pinterest.com/pin/35958497019126684/ |
-| herofavorites.jpg | Hero section for the favorites page.                        | trykolang.com |
-| herogoals.jpg     | Hero section for the goals page.                            | trykolang.com |
-| herohobbies.jpg   | Hero section for the hobbies page.                          | trykolang.com |
+| herofavorites.jpg | Hero section for the favorites page.                        | https://ph.pinterest.com/pin/89649848827145746/ |
+| herogoals.jpg     | Hero section for the goals page.                            | https://ph.pinterest.com/pin/1337074888515057/ |
+| herohobbies.jpg   | Hero section for the hobbies page.                          | https://ph.pinterest.com/pin/53621051809326464/|

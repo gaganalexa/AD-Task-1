@@ -7,6 +7,12 @@
     <title>Hobbies</title>
 </head>
 <body>
-    
+    <div class="nav">
+            <a href="../../index.php" class="btn">Introduction</a>
+            <a href="index.php" class="btn">My Hobbies</a>
+            <a href="../favorites/index.php" class="btn">My Favorites</a>
+            <a href="../goals/index.php" class="btn">My Goals</a>
+        </div>
+
 </body>
 </html>

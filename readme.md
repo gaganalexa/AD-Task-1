@@ -5,7 +5,6 @@
 <br />
 <div align="center">
   <a href="https://github.com/gaganalexa/">
-
     <img src="./assets/img/amg_logo.png" alt="AMG" width="150" height="150">
   </a>
 

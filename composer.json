@@ -1,0 +1,15 @@
+{
+    "name": "alexa/ad-task-1",
+    "autoload": {
+        "psr-4": {
+            "Alexa\\AdTask1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gaganalexa",
+            "email": "202310537@fit.edu.ph"
+        }
+    ],
+    "require": {}
+}

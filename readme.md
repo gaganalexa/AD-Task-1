@@ -40,7 +40,7 @@
       </ol>
     </li>
     <li>
-      <a href="#rules,-practices-and-principles">Rules, Practices and Principles</a>
+      <a href="#rule,-practices-and-principles">Rules, Practices and Principles</a>
     </li>
     <li>
       <a href="#resources">Resources</a>
@@ -72,9 +72,6 @@ AD-Task-1 is a task to accomplish declarations, looping, and conditional stateme
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
 ## Rules, Practices and Principles
-
-
-
 1. Always use `AD-` in the front of the Title of the Project for the Subject followed by your custom naming.
 2. Do not rename `.php` files if they are pages; always use `index.php` as the filename.
 3. Add `.component` to the `.php` files if they are components code; example: `footer.component.php`.
